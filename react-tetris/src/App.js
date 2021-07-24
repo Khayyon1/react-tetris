@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import GridBoard from './components/GridBoard';
+import nextBlock from './components/nextBlock';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </h1>
       </header>
       <GridBoard />
+      <nextBlock />
     </div>
   );
 }
